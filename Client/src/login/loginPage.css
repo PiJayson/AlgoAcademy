@@ -1,0 +1,81 @@
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #081831;
+}
+
+.blob
+{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 30px;
+    margin-top: 60vh;
+}
+.blob:nth-child(2)
+{
+    filter: blur(50px);
+}
+
+.login
+{
+    z-index: 200;
+}
+
+.background
+{
+    z-index: 100;
+}
+
+.start-1
+{
+    stop-color: #3b5586;
+}
+
+.start-2
+{
+    stop-color: #395872;
+}
+
+.bubbles
+{
+    position: relative;
+    display: flex;
+    z-index: 10;
+}
+
+.bubbles span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: white;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px white,
+    0 0 50px red,
+    0 0 100px black;
+    animation: animate 10s linear infinite;
+}
+.bubbles span:nth-child(even)
+{
+    background: white;
+    box-shadow: 0 0 0 10px white,
+    0 0 50px red,
+    0 0 100px black;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}

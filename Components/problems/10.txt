@@ -1,0 +1,26 @@
+Uwaga 1: W poniższych zadaniach nie jest wymagane sortowanie danych jeśli zadanie tego nie precyzuje. Wszystkie liczby zmniennoprzecinkowe należy wypisywać z dokładnością do dwóch miejsc po przecinku. W niektórych zadaniach zabronione jest używanie pewnych słów.
+
+Uwaga 2: We wszystkich zadaniach, z wyłączeniem 3c, należy używać podzapytań. We wszystkich zadaniach, z wyłączeniem 3c, 8, 10 i 12, należy użyć dokładnie jednego podzapytania.
+
+Uwaga 3: W tabeli rabaty niektóre z danych nie mają sensu: data_od jest późniejsza niż data_do. W takiej sytuacji rabat po prostu nie obowiązuje.
+
+Wypisz nazwy wszystkich produktów, które należą do tej samej kategorii co ‘Piórnik duży’. Możesz założyć, że w bazie znajduje się tylko jeden ‘Piórnik duży’.
+Podaj wszystkie nazwy produktów, których kategoria jest podkategorią pewnej kategorii.
+Podaj nazwy kategorii, które reprezentują co najmniej 3 produkty. Zadanie należy rozwiązać w trzech wersjach. Porównaj ich plany wykonań.
+ZAD3a: Użyj podzapytania w klauzuli WHERE.
+ZAD3b: Użyj podzapytania w klauzuli SELECT.
+ZAD3c: Nie używaj podzapytań.
+Wypisz wszystkie informacje (*) o tych rabatach, które najdłużej obowiązywały.
+Wyświetl wszystkie informacje (*) o kategoriach, których VAT jest niższy niż VAT którejś z jego bezpośrednich podkategorii. Użyj słowa kluczowego ANY.
+Podaj wszystkie zamówienia, wypisując id_zamowienia, które zawierają najwięcej zakupionych produktów. W tym zadaniu zabronione jest używanie ORDER BY.
+Podaj nazwy produktów, których cena zmieniła się w kwietniu co najmniej 2 razy (wprowadzenie ceny liczymy jako jedną zmianę). Liczbę takich zmian wypisz w drugiej kolumnie.
+Dla każdej kategorii wypisz jej najwyższą nadkategorię. Jeżeli kategoria nie posiada nadkategorii, przyjmij, że sama jest swoją najwyższą nadkategorią. W wyniku mają pojawić się dwie kolumny: nazwa kategorii i nazwa najwyższej nadkategorii.
+Dla każdego produktu podaj jego nazwę oraz jego ostatnią cenę brutto. W tym zadaniu zabronione jest używanie ORDER BY.
+Dla każdego produktu podaj jego nazwę oraz jego ostatnią cenę brutto, uwzględniając wszystkie możliwe rabaty aktywne w momencie ostatniej zmiany ceny. Zniżka rabatu dotyczy ceny brutto. W tym zadaniu nie uwzględniaj wymagania ilości produktów w rabacie.
+Dla każdego zamówienia wypisz jego id oraz jego ówczesną cenę transakcji brutto, nie uwzględniając rabatów.
+Dla każdego zamówienia wypisz jego id oraz jego ówczesną cenę transakcji brutto, uwzględniając wszystkie możliwe rabaty. Uwzględnij następujące zależności:
+rabaty klientów i produktów potraktuj niezależnie, tzn. dany rabat może być jednocześnie zaliczony do rabatu produktu, jak i rabatu klienta,
+rabat klienta jest uwzględniony jeśli pole id_zamowienia w tabeli rabaty_klienci wskazuje na rozpatrywane zamówienie, wtedy (zapewnienie dotyczące danych) również wartość id_klienta z tabeli rabaty_klienci jest równe (lub wynosi null) wartości id_klienta z tabeli zamowienia,
+wszystkie rabaty dotyczą ceny brutto i określają wartość bezwzględną (nie procentową),
+rabat r jest uznany jeśli data d realizacji zamówienia spełnia warunek r.data_od≤d≤r.data_do oraz (tylko w przypadku produktu) warunek ilości danego produktu,
+przyjmij, że w danym zamówienie każdy produkt pojawia się co najwyżej jeden raz.

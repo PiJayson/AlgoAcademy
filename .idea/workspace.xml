@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2bdfefa-fa2f-40cc-8c40-d635897a702b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/country/country-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/difficulty/difficulty-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-sponsor/brut1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-sponsor/brut2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-sponsor/wzor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-sponsor/wzor2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-trojkaty/brut1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-1-trojkaty/wzor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-01-2-suma-kwadratow-cyfr/wzor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-02-1-drzewa/wzor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-02-1-drzewa/wzor2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-02-2-klub-prawoskretnych-kierowcow/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/official-solution/oi-02-2-klub-prawoskretnych-kierowcow/wzor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/problem/problem-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/programming-language/programming-language-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/result/result-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/role/role-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/tag/tag-category-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/tag/tag-data.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/tag/tag-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/tag/tags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/user/generate-user-data.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/user/names-and-surnames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/user/user-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/function/function.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/function/rule.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/install.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/table/initialize.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/table/table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/uninstall.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/install.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/uninstall.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AiR5mF5u69wMg5FLtuZNAnWyLC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenDatabaseViewOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
